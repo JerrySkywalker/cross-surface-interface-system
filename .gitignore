@@ -1,0 +1,15 @@
+# Local secrets and rebuildable/disposable output
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/build/
+/cache/
+/generated/
+/scratch/
+/work/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
